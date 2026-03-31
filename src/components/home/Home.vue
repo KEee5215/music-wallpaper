@@ -67,11 +67,11 @@ import { ref } from "vue";
 import Navbar from "./Navbar.vue";
 
 const imgs = ref([
-  "https://keee5215-1407310157.cos.ap-beijing.myqcloud.com/img/blue-girl.png",
-  "https://keee5215-1407310157.cos.ap-beijing.myqcloud.com/img/paiting.jpg",
-  "https://keee5215-1407310157.cos.ap-beijing.myqcloud.com/img/two-girl-2.webp",
-  "https://keee5215-1407310157.cos.ap-beijing.myqcloud.com/img/two-girl.png",
-  "https://keee5215-1407310157.cos.ap-beijing.myqcloud.com/img/warm-girl.webp",
+  "https://haowallpaper.com/link/common/file/getCroppingImg/1a62cba138a786b8257ce08a760abc61",
+  "https://haowallpaper.com/link/common/file/getCroppingImg/1a62cba138a786b8257ce08a760abc61",
+  "https://haowallpaper.com/link/common/file/getCroppingImg/1a62cba138a786b8257ce08a760abc61",
+  "https://haowallpaper.com/link/common/file/getCroppingImg/1a62cba138a786b8257ce08a760abc61",
+  "https://haowallpaper.com/link/common/file/getCroppingImg/1a62cba138a786b8257ce08a760abc61",
 ]);
 </script>
 

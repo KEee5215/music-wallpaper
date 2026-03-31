@@ -26,12 +26,7 @@ const router = createRouter({
       props: true,
     },
     {
-      path: "/visualizer",
-      name: "visualizer",
-      component: () => import("../views/AudioVisualizerView.vue"),
-    },
-    {
-      path: "/project/:id",
+      path: "/project",
       name: "project",
       component: () => import("../views/ProjectView.vue"),
     },

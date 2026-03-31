@@ -2,7 +2,7 @@
   <div class="w-full">
     <!-- 卡片列表容器 -->
     <div
-      class="w-full overflow-hidden"
+      class="w-full overflow-x-auto scrollbar-hide"
       ref="cardListRef"
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"
@@ -71,10 +71,12 @@ const handleMouseLeave = () => {
 };
 
 const handleWheel = (e) => {
-  if (!isHovering.value || !cardListRef.value) return;
+  // 移除 isHovering 检查，让滚动始终生效
+  if (!cardListRef.value) return;
 
   // 阻止页面默认滚动
   e.preventDefault();
+  e.stopPropagation();
 
   // 更新滚动位置
   scrollPosition.value += e.deltaY;
@@ -100,5 +102,12 @@ const currentIndex = computed(() => {
 </script>
 
 <style scoped>
-/* 移除原来的自动滚动动画 */
+/* 隐藏默认滚动条 */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 </style>

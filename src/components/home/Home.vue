@@ -13,7 +13,7 @@
           playsinline
         >
           <source
-            src="https://keee5215-1407310157.cos.ap-beijing.myqcloud.com/video/son%20of%20sun.mp4"
+            src="https://keee5215-1407310157.cos.ap-beijing.myqcloud.com/video/son%20of%20sun.mp41"
             type="video/mp4"
           />
         </video>
